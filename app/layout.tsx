@@ -1,3 +1,5 @@
+import '@/app/ui/global.css';
+
 export default function RootLayout({
   children,
 }: {
@@ -9,3 +11,6 @@ export default function RootLayout({
     </html>
   );
 }
+
+// Using the clsx library to toggle class names
+// https://nextjs.org/learn/dashboard-app/css-styling#using-the-clsx-library-to-toggle-class-names
